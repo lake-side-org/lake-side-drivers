@@ -41,7 +41,7 @@ export default function HowWeWorkPage() {
               Alongside table banking, members also contribute a fixed 1,000
               shillings toward the merry-go-round. Each round, the full
               pooled amount goes to a different member in turn, so everyone
-              gets their lump sum at some point. It's a rotating fund, built
+              gets their lump sum at some point. It&apos;s a rotating fund, built
               entirely on members trusting each other to keep contributing.
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function HowWeWorkPage() {
                 </p>
                 <p className="mt-1 text-sm text-lake-dark/80">
                   Held every two weeks on Sunday from 2:00 PM, rotating at a
-                  member's house.
+                  member&apos;s house.
                 </p>
               </div>
               <div className="rounded-card border border-lake/10 bg-white p-5">
@@ -65,7 +65,7 @@ export default function HowWeWorkPage() {
                   Special meetings
                 </p>
                 <p className="mt-1 text-sm text-lake-dark/80">
-                  Called whenever an urgent matter needs the group's input,
+                  Called whenever an urgent matter needs the group&apos;s input,
                   with notice given as soon as possible.
                 </p>
               </div>
@@ -87,7 +87,7 @@ export default function HowWeWorkPage() {
             </h3>
             <p className="mt-2 text-sm text-lake-dark/80">
               Three elected officials — the chairperson, secretary, and
-              treasurer — are joint signatories on the group's bank account,
+              treasurer — are joint signatories on the group&apos;s bank account,
               so no single person controls the funds. Financial records are
               also reviewed by an internal auditor at least twice a year, and
               a full report goes to every member each December.
