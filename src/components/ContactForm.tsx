@@ -20,11 +20,11 @@ export default function ContactForm() {
 
     const formData = new FormData(event.currentTarget);
     const values = {
-      name: String(formData.get("name") ?? ""),
-      email: String(formData.get("email") ?? ""),
-      phone: String(formData.get("phone") ?? ""),
-      message: String(formData.get("message") ?? ""),
-      company: String(formData.get("company") ?? ""), // honeypot
+      name: typeof formData.get("name") === "string" ? formData.get("name") : "",
+      email: typeof formData.get("email") === "string" ? formData.get("email") : "",
+      phone: typeof formData.get("phone") === "string" ? formData.get("phone") : "",
+      message: typeof formData.get("message") === "string" ? formData.get("message") : "",
+      company: typeof formData.get("company") === "string" ? formData.get("company") : "", // honeypot
     };
 
     // Validate on the client first, purely for fast, friendly feedback.
@@ -86,7 +86,7 @@ export default function ContactForm() {
           Message sent
         </p>
         <p className="mt-2 text-sm text-lake-dark/80">
-          Thank you for reaching out. We'll get back to you at the email you
+          Thank you for reaching out. We&apos;ll get back to you at the email you
           provided.
         </p>
       </div>

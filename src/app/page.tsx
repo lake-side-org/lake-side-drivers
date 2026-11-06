@@ -63,7 +63,7 @@ export default function HomePage() {
               </h3>
               <p className="mt-2 text-sm text-lake-dark/80">
                 Every member puts in a set amount, and it rotates to a
-                different member each round. It's an old idea that still
+                different member each round. It&apos;s an old idea that still
                 works: a lump sum when you need it, funded by people who
                 trust you.
               </p>
@@ -71,7 +71,7 @@ export default function HomePage() {
           </div>
 
           <p className="mt-6 max-w-2xl text-sm text-lake-dark/70">
-            We're not running big projects yet — we're building the
+            We&apos;re not running big projects yet — we&apos;re building the
             foundation first. As the group grows, we plan to expand into
             broader income-generating activities and road safety work for
             our members.

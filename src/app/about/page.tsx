@@ -51,7 +51,7 @@ export default function AboutPage() {
 
         <div className="mt-12">
           <h3 className="font-heading text-lg font-medium text-lake">
-            What we're working toward
+            What we&apos;re working toward
           </h3>
           <ul className="mt-4 space-y-3">
             {objectives.map((item) => (
@@ -84,11 +84,11 @@ export default function AboutPage() {
 
         <div className="mt-12 rounded-card border border-lake/10 bg-sand p-6">
           <h3 className="font-heading text-lg font-medium text-lake">
-            Where we're based
+            Where we&apos;re based
           </h3>
           <p className="mt-2 text-sm text-lake-dark/80">
-            We're registered and based in Kakola, within Ahero, Kisumu
-            County — near St. Ann's Primary School. Our members are drivers
+            We&apos;re registered and based in Kakola, within Ahero, Kisumu
+            County — near St. Ann&apos;s Primary School. Our members are drivers
             from the surrounding community: boda boda riders, matatu
             operators, and others who work on the road.
           </p>

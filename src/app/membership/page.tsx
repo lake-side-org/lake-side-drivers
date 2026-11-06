@@ -72,7 +72,7 @@ export default function MembershipPage() {
               Membership can end if a member misses three consecutive
               meetings without notice, or falls behind on weekly
               contributions for four straight weeks. Full terms are in the
-              group's constitution, available to members on request.
+              group&apos;s constitution, available to members on request.
             </p>
           </div>
 
